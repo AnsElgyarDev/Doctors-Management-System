@@ -16,8 +16,12 @@ class AppointmentServices : IAppointmentServices
 
     public int GetTodayAppointmentsCount()
     {
-        var today = DateOnly.FromDateTime(DateTime.Today);
-        return _Context.Appointments.Count(a => a.AppointmentDate == today);
+        var today = DateTime.Today;
+    return _Context.Appointments
+            .AsEnumerable() 
+            .Count(a => a.AppointmentDate.Year == today.Year && 
+            a.AppointmentDate.Month == today.Month && 
+            a.AppointmentDate.Day == today.Day);
     }
 
     public bool ScheduleAppointment(AppointmentDto appointmentDto)

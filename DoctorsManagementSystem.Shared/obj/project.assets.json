@@ -8,7 +8,7 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "D:\\NuGet\\packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -17,7 +17,7 @@
       "projectUniqueName": "D:\\Dcotor's Management System\\DoctorsManagementSystem.Shared\\DoctorsManagementSystem.Shared.csproj",
       "projectName": "DoctorsManagementSystem.Shared",
       "projectPath": "D:\\Dcotor's Management System\\DoctorsManagementSystem.Shared\\DoctorsManagementSystem.Shared.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "packagesPath": "D:\\NuGet\\packages",
       "outputPath": "D:\\Dcotor's Management System\\DoctorsManagementSystem.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [

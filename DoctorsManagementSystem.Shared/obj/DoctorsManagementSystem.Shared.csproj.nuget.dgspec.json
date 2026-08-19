@@ -10,7 +10,7 @@
         "projectUniqueName": "D:\\Dcotor's Management System\\DoctorsManagementSystem.Shared\\DoctorsManagementSystem.Shared.csproj",
         "projectName": "DoctorsManagementSystem.Shared",
         "projectPath": "D:\\Dcotor's Management System\\DoctorsManagementSystem.Shared\\DoctorsManagementSystem.Shared.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "packagesPath": "D:\\NuGet\\packages",
         "outputPath": "D:\\Dcotor's Management System\\DoctorsManagementSystem.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
